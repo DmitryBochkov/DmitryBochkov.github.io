@@ -677,6 +677,7 @@ Change widths as necessary
  .g3 {width:98.0%}
 }
 
+
 /* LANDSCAPE TABLET/NETBOOK/LAPTOP */
 @media only screen and (min-width: 1024px) {
   body {
@@ -699,6 +700,15 @@ Change widths as necessary
   .g1 {width:31.333%}
   .g2 {width:64.667%;}
   .g3 {width:98.0%}
+}
+#portfolio {
+  font-size: 0;
+}
+#portfolio .g1 {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 1280px) {
